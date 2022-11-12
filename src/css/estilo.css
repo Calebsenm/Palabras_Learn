@@ -106,7 +106,7 @@ header {
     background: rgb(35, 33, 43);
     width: 100%;
     overflow: hidden;
-    /*Controña el texto fuera*/
+    /*Controla el texto fuera*/
     margin-bottom: 20px;
 
 }
@@ -214,5 +214,85 @@ footer {
 
 main{
 
-    height: 520Px;
+    height: 450px;
+}
+
+
+/* This is for the text */
+
+.Textcenter{
+  
+    height: 300px;
+    padding: 5px;
+    overflow: hidden;
+
+}
+
+.Text{
+   
+    height: 150px;
+    /*Controla para que no se salga dela caja*/
+    overflow:hidden
+}
+
+.ButtomText{
+   
+    height: 150px;
+    overflow:hidden;
+}
+.ButtomText div {
+    text-align: center;
+          
+    height: 100px;
+    margin-left: 20pX;
+    margin-right: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    overflow:hidden;
+    position: relative;
+}
+.Text div{
+    text-align: center;
+  
+    border-radius: 10px;
+    position: relative;
+    width: 60%;
+    height: 110px;
+  
+    top: 30%;
+    left: 20%;
+    margin: -25px 0 0 -25px;
+    overflow: hidden;
+    font-size: 30px;
+
+
+
+    text-align: center;
+
+
+}
+.Text div p{
+
+    padding: 2%;
+}
+.ButtomText div a{
+
+    width: 85%;
+    height: 50px;
+
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    margin: -25px 0 0 -25px;
+    overflow: hidden;
+    font-size: 40px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: #ccc;
+
+}
+
+.ButtomText div a:hover {
+    background: #f56f3a;
+    border-radius: 20px;
 }

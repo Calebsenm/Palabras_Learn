@@ -1,0 +1,218 @@
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+
+body {
+    /*This is for color */
+    background: #1f232c;
+    color: aliceblue;
+}
+
+/*This is for the header*/
+
+header nav {
+    float: left;
+    line-height: 50px;
+    /*Salto entr las lineas*/
+
+}
+
+.barra {
+
+
+    width: 95%;
+    max-width: 10000px;
+    /*centrar los elementos*/
+    margin: auto;
+    background-color: aqua;
+}
+
+header {
+    background: rgb(35, 33, 43);
+    width: 100%;
+    overflow: hidden;
+    /*Controña el texto fuera*/
+    margin-bottom: 20px;
+
+}
+
+
+header nav a {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    line-height: normal;
+    font-size: 20px;
+    font-weight: bold;
+    -webkit-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+
+}
+
+header nav a:hover {
+    background: #f56f3a;
+    border-radius: 20px;
+}
+
+/*this if for the footer ---------------------------*/
+
+footer {
+    background: rgb(35, 33, 43);
+    width: 100%;
+    overflow: hidden;
+    /*Controña el texto fuera*/
+    margin-bottom: 20px;
+}
+
+footer {
+    background: #191b20;
+    padding-top: 30px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.footer-container {
+    display: flex;
+    width: 100%;
+    padding-left: 20px;
+    margin: auto;
+    padding-bottom: 10px;
+}
+
+.content-foo h4 {
+    color: #fff;
+    border-bottom: 3px solid #f2c640;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+}
+
+.content-foo p {
+    color: #ccc;
+}
+
+.content-foo ul {
+    color: #ccc;
+    list-style: none;
+}
+
+.content-foo ul li {
+    padding: 2px 0;
+}
+
+.content-foo ul li i {
+    margin-right: 3px;
+}
+
+.content-foo a {
+    display: block;
+    color: #ccc;
+    font-size: 16px;
+    padding: 5px 0;
+}
+
+.content-foo a:hover {
+    color: #f2c640;
+}
+
+.copyrigth {
+    background-color: #111418;
+    padding: 10px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.copyrigth h2 {
+    font-size: 20px;
+    margin: 10px 10px 10px 10px;
+    color: #ccc;
+}
+
+.copyrigth .redes-sociales {
+    display: flex !important;
+    text-align: center;
+    font-size: 24px;
+    margin-right: 15px;
+}
+
+main{
+
+    height: 520Px;
+}

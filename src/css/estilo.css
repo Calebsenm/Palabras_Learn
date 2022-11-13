@@ -239,17 +239,21 @@ main{
    
     height: 150px;
     overflow:hidden;
+
+    background-color: #ccc;
 }
 .ButtomText div {
     text-align: center;
           
-    height: 100px;
+    height: 120px;
     margin-left: 20pX;
     margin-right: 20px;
     margin-top: 20px;
     border-radius: 10px;
     overflow:hidden;
     position: relative;
+
+    background-color: #111418;
 }
 .Text div{
     text-align: center;
@@ -275,22 +279,43 @@ main{
 
     padding: 2%;
 }
-.ButtomText div a{
+.ButtomText div div{
 
-    width: 85%;
-    height: 50px;
-
+    
+    height: 80px;
     position: absolute;
-    top: 50%;
+    top: 35%;
     left: 10%;
     margin: -25px 0 0 -25px;
     overflow: hidden;
     font-size: 40px;
     border-radius: 20px;
-    text-decoration: none;
-    color: #ccc;
+    width: 85%;
+    background-color: #f2c640;
+    overflow: hidden;
+
 
 }
+
+.ButtomText div div a{
+    overflow: hidden;
+    text-decoration: none;
+    color: #ccc;
+    background-color: #191b20;
+
+    padding-top: 5px;
+    margin: 10px;
+    left: 15%;
+    right: 60%;
+    position:initial;
+    position:absolute;
+    height: 50px;
+    width: 60%;
+    max-width: 800px;
+  
+
+}
+
 
 .ButtomText div a:hover {
     background: #f56f3a;

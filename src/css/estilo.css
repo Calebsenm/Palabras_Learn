@@ -127,10 +127,9 @@ header nav a {
 }
 
 header nav a:hover {
-    background: #f56f3a;
-    border-radius: 20px;
+    background-color: chartreuse;
+    color: rgb(35, 33, 43);
 }
-
 /*this if for the footer ---------------------------*/
 
 footer {
@@ -188,7 +187,8 @@ footer {
 }
 
 .content-foo a:hover {
-    color: #f2c640;
+    background-color: chartreuse;
+    color: rgb(35, 33, 43);
 }
 
 .copyrigth {
@@ -240,7 +240,7 @@ main{
     height: 150px;
     overflow:hidden;
 
-    background-color: #ccc;
+
 }
 .ButtomText div {
     text-align: center;
@@ -253,7 +253,6 @@ main{
     overflow:hidden;
     position: relative;
 
-    background-color: #111418;
 }
 .Text div{
     text-align: center;
@@ -291,9 +290,7 @@ main{
     font-size: 40px;
     border-radius: 20px;
     width: 85%;
-    background-color: #f2c640;
     overflow: hidden;
-
 
 }
 
@@ -301,7 +298,7 @@ main{
     overflow: hidden;
     text-decoration: none;
     color: #ccc;
-    background-color: #191b20;
+
 
     padding-top: 5px;
     margin: 10px;
@@ -318,6 +315,6 @@ main{
 
 
 .ButtomText div a:hover {
-    background: #f56f3a;
-    border-radius: 20px;
+    background-color: chartreuse;
+    color: rgb(35, 33, 43);
 }
